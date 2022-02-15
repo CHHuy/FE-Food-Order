@@ -1,0 +1,23 @@
+/*
+.menu-list{
+  @include make-row();
+  .menu-item{
+
+    @include media-breakpoint-up(xxl) {
+      @include make-col(1, 5);
+    }
+    @include media-breakpoint-down(xxl) {
+      @include make-col(1, 4);
+    }
+    @include media-breakpoint-down(xl) {
+      @include make-col(1, 2);
+    }
+    @include media-breakpoint-down(lg) {
+      @include make-col(1, 2);
+    }
+    @include media-breakpoint-down(sm) {
+      @include make-col(1, 2);
+    }
+  }
+}
+*/
