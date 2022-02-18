@@ -1,24 +1,24 @@
-.page-auth{
+.page-auth {
   @include flexbox();
   @include justify-content(center);
   @include flex-direction(column);
   @include align-items(center);
   height: 100vh;
-  .login-bg{
+  .login-bg {
     margin: 0.5rem 0;
   }
-  .company-name{
+  .company-name {
     font-weight: bold;
     font-size: 20px;
   }
-  .welcome-txt{
+  .welcome-txt {
     font-weight: normal;
     font-size: 14px;
     margin-bottom: 1rem;
     text-align: center;
     padding: 0 1rem;
   }
-  .sign-in-btn{
+  .sign-in-btn {
     margin: 1rem 0;
     color: #ffffff;
     text-transform: uppercase;
@@ -28,18 +28,18 @@
     border-radius: 15px;
     border: none;
     font-weight: 500;
-    &.bg-blue{
-      background-color: #4167B0;
+    &.bg-blue {
+      background-color: #4167b0;
     }
-    &.bg-orange{
-      background-color: #FE724C;
+    &.bg-orange {
+      background-color: $primary-color;
     }
   }
-  .skip-sign-in{
+  .skip-sign-in {
     font-size: 14px;
-    .a-link{
+    .a-link {
       font-weight: 500;
-      color: #FE724C;
+      color: $primary-color;
       text-decoration: none;
     }
   }
