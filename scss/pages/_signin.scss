@@ -4,13 +4,16 @@
   @include flex-direction(column);
   @include align-items(center);
   height: 100vh;
+
   .login-bg {
     margin: 0.5rem 0;
   }
+
   .company-name {
     font-weight: bold;
     font-size: 20px;
   }
+
   .welcome-txt {
     font-weight: normal;
     font-size: 14px;
@@ -18,8 +21,9 @@
     text-align: center;
     padding: 0 1rem;
   }
+
   .sign-in-btn {
-    margin: 1rem 0;
+    margin: 0.5rem 0;
     color: #ffffff;
     text-transform: uppercase;
     font-size: 14px;
@@ -28,15 +32,19 @@
     border-radius: 15px;
     border: none;
     font-weight: 500;
+
     &.bg-blue {
       background-color: #4167b0;
     }
+
     &.bg-orange {
       background-color: $primary-color;
     }
   }
+
   .skip-sign-in {
     font-size: 14px;
+
     .a-link {
       font-weight: 500;
       color: $primary-color;
@@ -44,3 +52,21 @@
     }
   }
 }
+
+.page-info {
+  .form-information {
+    width: 100%;
+    max-width: 400px;
+    background: #ffffff;
+    padding: 2rem 2rem;
+    border-radius: 15px;
+    margin: 2rem 0;
+  }
+
+  .heading-txt {
+    color: $primary-color;
+    font-weight: 900;
+  }
+}
+
+

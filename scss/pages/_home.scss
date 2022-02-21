@@ -86,6 +86,30 @@
   }
 }
 
+.user-info{
+  @include flexbox();
+  @include flex-direction(column);
+  @include justify-content(center);
+  margin: 0.5rem 1rem;
+  .user-img{
+    width: 105px;
+    border-radius: 50%;
+  }
+  .user-info-right{
+    @include flexbox();
+    @include flex-direction(column);
+    @include justify-content(center);
+    margin: 1rem 0;
+    span{
+      font-weight: 500;
+      color: #607284;
+      &.user-name{font-size: 1.5rem; font-weight: 600;color: #000000;}
+      &.user-phone{}
+      &.user-floor{}
+    }
+  }
+}
+
 .cart-list {
   & > div {
     margin-bottom: 3rem;
@@ -233,8 +257,8 @@
   }
   .offcanvas-body {
     a {
-      font-size: 18px;
-      font-weight: 600;
+      font-size: 1rem;
+      font-weight: 500;
       color: #000000;
       text-decoration: none;
       margin: 0.5rem 1rem;

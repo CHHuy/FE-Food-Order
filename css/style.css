@@ -11324,6 +11324,57 @@ Footer
   transition: 0.2s ease-out;
 }
 
+.user-info {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  justify-content: center;
+  margin: 0.5rem 1rem;
+}
+.user-info .user-img {
+  width: 105px;
+  border-radius: 50%;
+}
+.user-info .user-info-right {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  justify-content: center;
+  margin: 1rem 0;
+}
+.user-info .user-info-right span {
+  font-weight: 500;
+  color: #607284;
+}
+.user-info .user-info-right span.user-name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #000000;
+}
 .cart-list > div {
   margin-bottom: 3rem;
 }
@@ -11510,8 +11561,8 @@ Footer
   flex-direction: column;
 }
 .offcanvas#offcanvasMenu .offcanvas-body a {
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 1rem;
+  font-weight: 500;
   color: #000000;
   text-decoration: none;
   margin: 0.5rem 1rem;
@@ -11561,7 +11612,7 @@ Footer
   padding: 0 1rem;
 }
 .page-auth .sign-in-btn {
-  margin: 1rem 0;
+  margin: 0.5rem 0;
   color: #ffffff;
   text-transform: uppercase;
   font-size: 14px;
@@ -11584,5 +11635,18 @@ Footer
   font-weight: 500;
   color: #fe724c;
   text-decoration: none;
+}
+
+.page-info .form-information {
+  width: 100%;
+  max-width: 400px;
+  background: #ffffff;
+  padding: 2rem 2rem;
+  border-radius: 15px;
+  margin: 2rem 0;
+}
+.page-info .heading-txt {
+  color: #fe724c;
+  font-weight: 900;
 }
 /*# sourceMappingURL=style.css.map */
