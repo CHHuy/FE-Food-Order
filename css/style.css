@@ -11649,4 +11649,36 @@ Footer
   color: #fe724c;
   font-weight: 900;
 }
+
+.page-order {
+  padding: 2rem 0.5rem;
+}
+.page-order .order-list .order-item {
+  margin-bottom: 1.5rem;
+}
+.page-order .order-list .order-item img {
+  border-radius: 12px;
+}
+.page-order .order-list .order-item .order-name {
+  font-weight: 600;
+}
+.page-order .order-list .order-item .order-time {
+  font-weight: 600;
+  display: block;
+}
+.page-order .order-list .order-item .order-ul {
+  padding-left: 1rem;
+  margin: 0.5rem 0;
+  list-style: none;
+}
+.page-order .order-list .order-item .order-ul .order-li {
+  font-weight: 500;
+}
+.page-order .order-list .order-item .total-price-order {
+  color: #fe724c;
+  font-weight: 700;
+}
+.page-order .order-list .order-item .total-price-order span {
+  color: #000000;
+}
 /*# sourceMappingURL=style.css.map */

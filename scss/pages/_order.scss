@@ -1,0 +1,42 @@
+.page-order {
+  padding: 2rem 0.5rem;
+
+  .order-list {
+    .order-item {
+      margin-bottom: 1.5rem;
+
+      img {
+        border-radius: 12px;
+      }
+
+      .order-name{
+        font-weight: 600;
+
+      }
+
+      .order-time {
+        font-weight: 600;
+        display: block;
+      }
+
+      .order-ul {
+        padding-left: 1rem;
+        margin: 0.5rem 0;
+        list-style: none;
+
+        .order-li {
+          font-weight: 500;
+        }
+      }
+
+      .total-price-order {
+        color: $primary-color;
+        font-weight: 700;
+
+        span {
+          color: #000000;
+        }
+      }
+    }
+  }
+}
