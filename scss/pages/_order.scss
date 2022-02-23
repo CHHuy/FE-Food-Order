@@ -29,14 +29,15 @@
         }
       }
 
-      .total-price-order {
-        color: $primary-color;
-        font-weight: 700;
-
-        span {
-          color: #000000;
-        }
-      }
     }
+  }
+}
+
+.total-price-order {
+  color: $primary-color;
+  font-weight: 700;
+
+  span {
+    color: #000000;
   }
 }
